@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="hip-bridge:war">
+    <output-path>$PROJECT_DIR$/META-INF/maven/org.nha/hip-bridge/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>hip-bridge</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="hip-bridge.war">
+      <element id="artifact" artifact-name="hip-bridge:war exploded" />
+    </root>
+  </artifact>
+</component>
